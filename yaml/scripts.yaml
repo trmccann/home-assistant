@@ -1,0 +1,7 @@
+# I think this is
+toggle_bedroom:
+  alias: Toggle Bedroom
+  sequence:
+    service: switch.toggle
+    entity_id:
+      - group.bedroom
